@@ -1,4 +1,9 @@
-print("+++++++++ Saudações bancárias, cliente! +++++++")
+from cadastro import cadastrar_cliente
+
+clientes = []  # Lista vazia para armazenar os clientes
+cadastrar_cliente(clientes)
+
+print("+++++++++ Saudações bancárias! +++++++")
 
 def valorPositivo():
     a = int(input('### informe o valor de depósito ### '))
